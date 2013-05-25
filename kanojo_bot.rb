@@ -69,7 +69,7 @@ class KanojoBot
 
     @twitter = TwitterWrapper.new(@logger)
     date = Time.now.strftime('%Yねん%mがつ%dにち %Hじ%Mふん%Sびょう')
-    @twitter.tweet_update("#{date} きょうも すぎゃーん だいすき #{face}")
+    @twitter.tweet_update("#{date} 今日もゴリのこと大好き！！ #{face}")
   end
 
   # running kanojo!
@@ -117,12 +117,8 @@ class KanojoBot
       'あたしがいるよ〜〜！'
     when /バレンタイン/, /誕生日/, /クリスマス/
       'ちゃんと覚えてるよ〜。'
-    when /全裸/
-      'たいへん。かぜひいちゃう！'
-    when /あーりん/
-      'あーりんにヤキモチなう。。。'
-    when /うっせー/
-      'ご機嫌斜めなのね、それでも好きだヨ'
+    when /空腹/
+      '大丈夫？ちゃんとご飯食べてよー。'
     when /ももクロ/, /結婚/, /アイドル/, /ジョジョ/, /未来/, /ドルヲタ/
       '' # hagemashitaiの言葉だけ
     end
@@ -138,7 +134,6 @@ class KanojoBot
 ( ❝̆ ·̫̮ ❝̆ )✧
 ( ¤̴̶̷̤́ ‧̫̮ ¤̴̶̷̤̀ )
 (◞≼●≽◟◞౪◟◞≼●≽◟)
-┌（┌ ＾o＾）┐スギャ...
 (◞≼⓪≽◟,_ゝ◞≼⓪≽◟)ﾏﾝﾀﾞﾑ
 ╰U╯☜(◉ɷ◉ )
 (｡◠‿◠｡✿)
