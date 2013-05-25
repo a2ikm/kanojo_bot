@@ -1,8 +1,8 @@
 # kanojo bot.
 
-[@sugyan_knj_bot](https://twitter.com/sugyan_knj_bot) loves @sugyan
+[@gori_knj_bot](https://twitter.com/gori_knj_bot) loves @planetofgori
 
-inspired by [genki-bot](https://github.com/sugyan/genki-bot)
+inspired by [kanojo_bot](https://github.com/sugamasao/kanojo_bot)
 
 ----
 
